@@ -1,0 +1,13 @@
+body{
+    background-image: url("./Hamburger.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.center{
+    align-content: center; float: right;
+}
+
+ul {
+    list-style-position: inside;
+}
