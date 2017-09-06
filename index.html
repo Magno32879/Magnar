@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Nettsted%20mat.css">
+    <meta charset="UTF-8">
+    <title>Nettbutikk</title>
+</head>
+<body>
+<h1 style="color: deepskyblue" align="center" > <i><b><font size="10">~Magnars Restaurant~</font> </b></i> </h1>
+<p align="right">
+<a href="https://support.apple.com/no-no" style="color: white" target="_blank"> Trenger du hjelp? <br> KLIKK HER!</a>
+</p>
+
+        <h2 style="color: white">Sett sammen din egen meny!<br>Send inn!<br> Og få maten levert rett hjem!</h2>
+
+<form>
+<select name="velgMat" required>
+        <option value="">Velg en matrett</option>
+        <option value="hamburger">Hamburger</option>
+        <option value="pizza">Pizza</option>
+        <option value="pølse">Pølse</option>
+        <option value="kebab">Kebab</option>
+    </select> <br>
+
+<br>
+    <select name="velgSiderett" required>
+        <option value="">Velg en siderett</option>
+        <option value="">Pommes frites</option>
+        <option value="">Løkringer</option>
+        <option value="">Potetmos</option>
+        <option value="">Salat</option>
+    </select> <br>
+
+
+
+        <br><label> <font size="5" color="white"> <i> Velg et eller flere tibehør til maten:</i>  </font></label><br>
+        <label for="ketchup"> <font color="red"><b>Ketchup</b></font></label>
+        <input type="checkbox" id="ketchup" value="ketchup" name="Tilbehør"> <br>
+
+        <label for="sennep"> <font color="#ffd700"><b> Sennep</b></font></label>
+        <input type="checkbox" id="sennep" value="sennep" name="Tilbehør"> <br>
+
+        <label for="hamburgerdressing"> <font color="#ff7f50"> <b>Hamburgerdressing</b></font></label>
+        <input type="checkbox" id="hamburgerdressing" value="hamburgerdressing" name="Tibehør"> <br>
+
+        <label for="barbeque sauce"> <font color="#a52a2a"><b>Barbeque sauce</b></font></label>
+        <input type="checkbox" id="barbeque sauce" value="barbeque sauce" name="Tilbehør">
+    <br>
+<p></p>
+        <label> <font size="5" color="white"> <i>Velg en drikke til maten:</i></font></label> <br>
+
+        <label for="brus"> <font color="blue"> <b>Brus</b></font></label>
+        <input type="radio" id="brus" value="brus" name="Drikke"> <br>
+
+        <label for="saft"><font color="#ff1493"> <b>Saft</b></font></label>
+        <input type="radio" id="saft" value="saft" name="Drikke"> <br>
+
+        <label for="vann"><font color="#add8e6"> <b>Vann</b></font></label>
+        <input type="radio" id="vann" value="vann" name="Drikke"> <br>
+
+
+
+<br> <input type="text" name="navn" placeholder="Navn" required> <br>
+
+<br><input type="number" name="telefonnummer" placeholder="Telefonnummer" required> <br>
+
+<br> <input type="text" name="adresse" placeholder="Adresse" required> <br>
+
+<br> <input type="number" name="postnummer" placeholder="Postnummer" required> <br>
+
+<br> <input type="text" name="poststed" placeholder="Poststed" required> <br>
+
+<br> <input type="submit" value="Send inn">
+</form>
+<center>
+<h3 style="color: white"> Prisliste:</h3>
+
+    <ul style="color: white">
+        <li> <i> ~El Gran Gigante~</i><br>(Matrett, Siderett, ett tilbehør og en drikke)  Pris: 75kr.</li>
+        <br>
+        <li><i> Mini meal</i> <br> (Matrett, og drikke) Pris: 50kr.</li>
+        <br>
+        <li> <i>TheYouthMeal </i> <br> (Matrett og siderett) Pris: 60kr.</li>
+        <br>
+        <li><i>~Triple Meat~</i>Meny <br> (3 stk. matrett, en Siderett, ett tilbehør og en drikke). Pris: 149kr. </li>
+        <br>
+        <li><i>~The Duo Meal~</i><br> (2stk. matrett, 2stk. Siderett, 2stk. tilbehør og 2stk. drikke)<br>
+        Spesialtilbud bare denne uken! Førpris: 140, Nåpris bare 130kr!</li>
+        <li> Ekstra siderett, tilbehør eller en drikke i tillegg til menyen. Pris. 30kr.</li>
+    </ul>
+    <p>  <font color="white"> <i><b> Levering er selvfølgelig inkludert i prisen :  ) </b> </i></font></p>
+</center>
+</body>
+</html>
